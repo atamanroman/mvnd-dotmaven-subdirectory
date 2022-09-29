@@ -2,11 +2,11 @@
 
 Expected behaviour:
 
-mvn(d) loads the necessary  `--add-{exports,opens}` from `svc/.m2/jvm.config`, even with `-f svc/pom.xml`.
+mvn(d) loads the necessary  `--add-{exports,opens}` from `svc/.mvn/jvm.config`, even with `-f svc/pom.xml`.
 
 Actual behaviour:
 
-mvn loads the necessary  `--add-{exports,opens}` from `svc/.m2/jvm.config`, even with `-f svc/pom.xml`. \
+mvn loads the necessary  `--add-{exports,opens}` from `svc/.mvn/jvm.config`, even with `-f svc/pom.xml`. \
 **mvnd does not.**
 
 Context:
